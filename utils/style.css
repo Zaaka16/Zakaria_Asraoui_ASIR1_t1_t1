@@ -1,0 +1,87 @@
+body {                                                       /*Ajustes de los margenes*/
+    margin: 0;
+}
+
+.fondo {                                                    /*Color de fondo de la página*/               
+    background-color: rgb(225, 231, 231);
+}
+
+header {                                                    /*Ajuste título principal+logo*/
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+}
+
+header img {                                              /*Ajustes logo título*/
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+
+.menu {                                                /*Color de fondo del menu de opciones del navegador*/
+    background-color: black;     
+    padding: 2px;
+    margin: 0;
+}
+
+.menu ul {                                             /*Ajustes del menu de links deñl navegador.*/
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px; 
+}
+
+.menu a {                                              /*Ajustes del navegador.*/
+    text-decoration: none;
+    color: white
+}
+
+.menu a:hover {                                        /*Ajustes cuando el puntero se posicióna encima de los links.*/
+    color: red;
+}
+
+ h3 {                                                   /* Ajuste título teléfonos móviles disponibles */
+    text-align: center;
+}
+
+
+.stock{                                                /*Ajustes del stock.*/
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+    flex-direction: wrap;
+}
+
+.stock ul{                                                 /*Ajustes de la lista del stock.*/
+    text-align:center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.stock img {                                            /*Ajustes de las imágenes de los productos.*/
+width: 170px;
+height: 170px;
+object-fit: contain;
+mix-blend-mode: multiply;
+}
+
+ .stock button {                                         /* Ajustes del botón de añadir al carrito  */
+    border: solid color(black);
+    padding: 5px;
+    border-radius: 10px; 
+}
+
+.stock button:hover {                                        /*Ajustes cuando el puntero se posicióna encima del botón de añadir al carrito.*/
+    color: red;
+}
+
+select {                                                     /*Ajustes del desplegable de elección de color.*/
+    margin: 10px;
+    border-radius: 5px;
+    width: 100px;
+}
